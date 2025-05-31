@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CANDY COMPANY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1a1a1a, #121212);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      background-color: #242424;
+      padding: 2rem 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 3rem;
+      margin: 0;
+      color: #fff; /* Ensured white text */
+      letter-spacing: 2px;
+    }
+    main {
+      width: 90%;
+      max-width: 700px;
+      padding: 0 1rem 3rem;
+      flex-grow: 1;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.3rem;
+      color: #fff;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .candy-item {
+      background-color: #1f1f1f;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.8);
+      transition: background-color 0.3s ease;
+      color: #fff;
+    }
+    .candy-item:hover {
+      background-color: #2a2a2a;
+    }
+    .candy-item strong {
+      color: #fff;
+      font-size: 1.1rem;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>THE CANDY COMPANY</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Who Are We 😀?</h2>
+      <p>
+        Jeremy and I are collaborating to provide snacks for everyone. We strive to offer quality options to keep you satisfied. We sell snacks during homeroom and would greatly appreciate your support by making a purchase.
+      </p>
+    </section>
+
+    <section>
+      <p>
+        Welcome to our snack shop! We offer a wide variety of delicious treats to satisfy your cravings. For your convenience, we accept ApplePay and cash payments; however, please note that dollar coins are not accepted. All transactions are discreetly handled to ensure privacy, so we kindly ask that you keep this a secret. Thank you for supporting us—we hope you enjoy our candy!
+      </p>
+    </section>
+
+    <section>
+      <h2>Candy Prices</h2>
+      <ul>
+        <li class="candy-item">
+          <strong>Rice Crispy Treats - $1</strong><br />
+          A classic marshmallow treat with a soft crunch and gooey sweetness.
+        </li>
+        <li class="candy-item">
+          <strong>Gummy Clusters (medium size) - $3</strong><br />
+          A colorful, crunchy outside with a chewy gummy center—perfect for snacking.
+        </li>
+        <li class="candy-item">
+          <strong>Welches - $1</strong><br />
+          Soft, fruity snacks in a variety of flavors.
+        </li>
+        <li class="candy-item">
+          <strong>SourPatchKids (Large) - $4</strong><br />
+          A generous portion of tangy-sweet candies that hit you with sour, then sweet.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Rules & Support</h2>
+      <p>
+        Please keep all information confidential and share it only with close friends. If you’d like to support us further, a donation of 50 cents is greatly appreciated.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
